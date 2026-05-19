@@ -5,7 +5,7 @@ const proyectos = [
       "Laboratorio desarrollado para practicar la estructura básica de una aplicación web, uso de componentes, estilos y organización del contenido.",
     tecnologias: ["Next.js", "React", "TypeScript", "CSS"],
     imagen: "/proyecto1.png",
-    repo: "https://github.com/tu-usuario/tu-repo-lab1",
+    repo: "https://github.com/estuJR/tu-repo-lab1",
     demo: "#",
   },
   {
@@ -14,7 +14,7 @@ const proyectos = [
       "Proyecto enfocado en construir una interfaz web ordenada, aplicando navegación, diseño visual y buenas prácticas de desarrollo.",
     tecnologias: ["React", "JavaScript", "HTML", "CSS"],
     imagen: "/proyecto2.png",
-    repo: "https://github.com/tu-usuario/tu-repo-lab2",
+    repo: "https://github.com/estuJR/tu-repo-lab2",
     demo: "#",
   },
   {
@@ -23,7 +23,7 @@ const proyectos = [
       "Laboratorio orientado al desarrollo de servicios backend, manejo de rutas, lógica del servidor y conexión con datos.",
     tecnologias: ["Node.js", "Express", "PostgreSQL"],
     imagen: "/proyecto3.png",
-    repo: "https://github.com/tu-usuario/tu-repo-lab3",
+    repo: "https://github.com/estuJR/tu-repo-lab3",
     demo: "#",
   },
   {
@@ -32,7 +32,7 @@ const proyectos = [
       "Primer proyecto principal del curso, desarrollado en equipo para aplicar conceptos de frontend, backend, repositorios y despliegue.",
     tecnologias: ["React", "Backend", "GitHub", "Vercel"],
     imagen: "/proyecto4.png",
-    repo: "https://github.com/tu-usuario/tu-repo-proyecto1",
+    repo: "https://github.com/estuJR/tu-repo-proyecto1",
     demo: "#",
   },
   {
@@ -41,7 +41,7 @@ const proyectos = [
       "Segundo proyecto principal del curso, integrando conocimientos de desarrollo web, base de datos, consumo de API y despliegue.",
     tecnologias: ["Next.js", "API", "Base de Datos", "Vercel"],
     imagen: "/proyecto5.png",
-    repo: "https://github.com/tu-usuario/tu-repo-proyecto2",
+    repo: "https://github.com/estuJR/tu-repo-proyecto2",
     demo: "#",
   },
 ];
@@ -88,8 +88,9 @@ export default function Home() {
             </a>
 
             <a
-              href="https://github.com/tu-usuario"
+              href="https://github.com/estuJR"
               target="_blank"
+              rel="noopener noreferrer"
               className="btnSecundario"
             >
               GitHub
@@ -165,11 +166,19 @@ export default function Home() {
                 </div>
 
                 <div className="linksProyecto">
-                  <a href={proyecto.repo} target="_blank">
+                  <a
+                    href={proyecto.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Repositorio
                   </a>
 
-                  <a href={proyecto.demo} target="_blank">
+                  <a
+                    href={proyecto.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Sitio desplegado
                   </a>
                 </div>
@@ -191,20 +200,17 @@ export default function Home() {
         <div className="contactGrid">
           <div className="contactCard">
             <h3>Correo</h3>
-            <p>tu-correo@correo.com</p>
+            <p>javieralvizures2006@gmai.com</p>
           </div>
 
           <div className="contactCard">
             <h3>GitHub</h3>
-            <a href="https://github.com/tu-usuario" target="_blank">
-              github.com/tu-usuario
-            </a>
-          </div>
-
-          <div className="contactCard">
-            <h3>LinkedIn</h3>
-            <a href="https://linkedin.com/in/tu-usuario" target="_blank">
-              linkedin.com/in/tu-usuario
+            <a
+              href="https://github.com/estuJR"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/estuJR
             </a>
           </div>
         </div>

@@ -192,6 +192,7 @@ a {
   border: 1px solid rgba(148, 163, 184, 0.18);
   border-radius: 22px;
   overflow: hidden;
+  transition: 0.2s ease;
 }
 
 .cardProyecto:hover {
@@ -251,7 +252,7 @@ a {
 
 .contactGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 22px;
   margin-top: 30px;
 }
@@ -325,5 +326,13 @@ footer {
 
   .botones {
     flex-direction: column;
+  }
+
+  .section {
+    padding: 70px 6%;
+  }
+
+  .hero {
+    padding: 70px 6%;
   }
 }
