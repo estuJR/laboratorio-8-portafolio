@@ -1,47 +1,47 @@
 const proyectos = [
   {
-    nombre: "Laboratorio 1 - Fundamentos Web",
+    nombre: "Portafolio Web Personal",
     descripcion:
-      "Laboratorio desarrollado para practicar la estructura básica de una aplicación web, uso de componentes, estilos y organización del contenido.",
-    tecnologias: ["Next.js", "React", "TypeScript", "CSS"],
+      "Sitio web personal desarrollado para presentar mi perfil como estudiante, mis habilidades, tecnologías aprendidas y proyectos trabajados durante el curso de Sistemas y Tecnologías Web.",
+    tecnologias: ["Next.js", "React", "TypeScript", "CSS", "Vercel"],
     imagen: "/proyecto1.png",
-    repo: "https://github.com/estuJR/tu-repo-lab1",
+    repo: "https://github.com/estuJR",
     demo: "#",
   },
   {
-    nombre: "Laboratorio 2 - Aplicación Web",
+    nombre: "Sistema de Gestión Web",
     descripcion:
-      "Proyecto enfocado en construir una interfaz web ordenada, aplicando navegación, diseño visual y buenas prácticas de desarrollo.",
+      "Proyecto enfocado en la construcción de una aplicación web con una estructura ordenada, navegación clara y componentes reutilizables para practicar fundamentos de desarrollo frontend.",
     tecnologias: ["React", "JavaScript", "HTML", "CSS"],
     imagen: "/proyecto2.png",
-    repo: "https://github.com/estuJR/tu-repo-lab2",
+    repo: "https://github.com/estuJR",
     demo: "#",
   },
   {
-    nombre: "Laboratorio 3 - Backend y API",
+    nombre: "Aplicación CRUD con Base de Datos",
     descripcion:
-      "Laboratorio orientado al desarrollo de servicios backend, manejo de rutas, lógica del servidor y conexión con datos.",
-    tecnologias: ["Node.js", "Express", "PostgreSQL"],
+      "Aplicación desarrollada para practicar la creación, lectura, actualización y eliminación de información, integrando lógica de backend y manejo de datos.",
+    tecnologias: ["Node.js", "Express", "PostgreSQL", "API REST"],
     imagen: "/proyecto3.png",
-    repo: "https://github.com/estuJR/tu-repo-lab3",
+    repo: "https://github.com/estuJR",
     demo: "#",
   },
   {
-    nombre: "Proyecto 1 del Curso",
+    nombre: "Dashboard de Información",
     descripcion:
-      "Primer proyecto principal del curso, desarrollado en equipo para aplicar conceptos de frontend, backend, repositorios y despliegue.",
-    tecnologias: ["React", "Backend", "GitHub", "Vercel"],
+      "Interfaz tipo dashboard creada para visualizar información de forma clara y organizada, aplicando diseño web, estructura de componentes y presentación profesional de datos.",
+    tecnologias: ["Next.js", "React", "TypeScript", "CSS"],
     imagen: "/proyecto4.png",
-    repo: "https://github.com/estuJR/tu-repo-proyecto1",
+    repo: "https://github.com/estuJR",
     demo: "#",
   },
   {
-    nombre: "Proyecto 2 del Curso",
+    nombre: "Proyecto Final de Desarrollo Web",
     descripcion:
-      "Segundo proyecto principal del curso, integrando conocimientos de desarrollo web, base de datos, consumo de API y despliegue.",
-    tecnologias: ["Next.js", "API", "Base de Datos", "Vercel"],
+      "Proyecto integrador del curso donde se aplicaron conocimientos de frontend, backend, repositorios, despliegue y organización de una aplicación web completa.",
+    tecnologias: ["Next.js", "React", "GitHub", "Vercel"],
     imagen: "/proyecto5.png",
-    repo: "https://github.com/estuJR/tu-repo-proyecto2",
+    repo: "https://github.com/estuJR",
     demo: "#",
   },
 ];
@@ -200,7 +200,7 @@ export default function Home() {
         <div className="contactGrid">
           <div className="contactCard">
             <h3>Correo</h3>
-            <p>javieralvizures2006@gmai.com</p>
+            <p>javieralvizures2006@gmail.com</p>
           </div>
 
           <div className="contactCard">
