@@ -4,7 +4,7 @@ const proyectos = [
     descripcion:
       "Sitio web personal desarrollado para presentar mi perfil como estudiante, mis habilidades, tecnologías aprendidas y proyectos trabajados durante el curso de Sistemas y Tecnologías Web.",
     tecnologias: ["Next.js", "React", "TypeScript", "CSS", "Vercel"],
-    imagen: "/proyecto1.png",
+    imagen: "/1.png",
     repo: "https://github.com/estuJR",
     demo: "#",
   },
@@ -13,7 +13,7 @@ const proyectos = [
     descripcion:
       "Proyecto enfocado en la construcción de una aplicación web con una estructura ordenada, navegación clara y componentes reutilizables para practicar fundamentos de desarrollo frontend.",
     tecnologias: ["React", "JavaScript", "HTML", "CSS"],
-    imagen: "/proyecto2.png",
+    imagen: "/2.png",
     repo: "https://github.com/estuJR",
     demo: "#",
   },
@@ -22,7 +22,7 @@ const proyectos = [
     descripcion:
       "Aplicación desarrollada para practicar la creación, lectura, actualización y eliminación de información, integrando lógica de backend y manejo de datos.",
     tecnologias: ["Node.js", "Express", "PostgreSQL", "API REST"],
-    imagen: "/proyecto3.png",
+    imagen: "/3.png",
     repo: "https://github.com/estuJR",
     demo: "#",
   },
@@ -31,7 +31,7 @@ const proyectos = [
     descripcion:
       "Interfaz tipo dashboard creada para visualizar información de forma clara y organizada, aplicando diseño web, estructura de componentes y presentación profesional de datos.",
     tecnologias: ["Next.js", "React", "TypeScript", "CSS"],
-    imagen: "/proyecto4.png",
+    imagen: "/4.png",
     repo: "https://github.com/estuJR",
     demo: "#",
   },
@@ -40,7 +40,7 @@ const proyectos = [
     descripcion:
       "Proyecto integrador del curso donde se aplicaron conocimientos de frontend, backend, repositorios, despliegue y organización de una aplicación web completa.",
     tecnologias: ["Next.js", "React", "GitHub", "Vercel"],
-    imagen: "/proyecto5.png",
+    imagen: "/5.png",
     repo: "https://github.com/estuJR",
     demo: "#",
   },
